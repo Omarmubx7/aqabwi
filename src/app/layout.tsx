@@ -7,8 +7,8 @@ import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import SmoothScroll from "@/components/ui/smooth-scroll";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
+const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit", display: "swap" });
 
 export const dynamic = "force-static";
 
