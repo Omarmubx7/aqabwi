@@ -11,18 +11,18 @@ import {
 } from "@/components/ui/tooltip";
 
 const clients = [
-    { name: "Samsung", logo: "/clients/SAMSUNG.png" },
-    { name: "GIZ", logo: "/clients/GIZ.png" },
-    { name: "Hilton", logo: "/clients/HILTON.png" },
-    { name: "JEG", logo: "/clients/JEG.png" },
+    { name: "Samsung", logo: "/clients/samsung.png" },
+    { name: "GIZ", logo: "/clients/giz.png" },
+    { name: "Hilton", logo: "/clients/hilton.png" },
+    { name: "JEG", logo: "/clients/jeg.png" },
 ];
 
 const software = [
-    { name: "Adobe Illustrator", logo: "/software-apps/Illustrator.png" },
-    { name: "Adobe Lightroom", logo: "/software-apps/LIGHTROOM.png" },
-    { name: "Adobe Photoshop", logo: "/software-apps/PHOTOSHOP.png" },
-    { name: "Adobe Premiere Pro", logo: "/software-apps/Premier.png" },
-    { name: "Adobe After Effects", logo: "/software-apps/afftereffect.png" },
+    { name: "Adobe Illustrator", logo: "/software-apps/illustrator.png" },
+    { name: "Adobe Lightroom", logo: "/software-apps/lightroom.png" },
+    { name: "Adobe Photoshop", logo: "/software-apps/photoshop.png" },
+    { name: "Adobe Premiere Pro", logo: "/software-apps/premiere.png" },
+    { name: "Adobe After Effects", logo: "/software-apps/after-effects.png" },
 ];
 
 export default function SocialProof() {
