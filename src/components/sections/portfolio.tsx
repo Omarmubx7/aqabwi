@@ -19,8 +19,7 @@ const localImages = [
     "/dsc-09318-copy.jpeg",
     "/dsc-09874-copy.jpeg",
     "/whatsapp-image-1.jpeg",
-    "/whatsapp-image-2.jpeg",
-    "/instagram-draft.mp4"
+    "/whatsapp-image-2.jpeg"
 ];
 
 const portfolioItems = {
@@ -38,7 +37,6 @@ const portfolioItems = {
         { id: 14, src: localImages[10], alt: "Event Moments", size: "wide" },
     ],
     videography: [
-        { id: 15, src: localImages[11], alt: "Instagram Draft", type: "video" },
         { id: 6, src: localImages[2], alt: "Music Video", type: "video" }, // Placeholder re-using image for now
         { id: 7, src: localImages[0], alt: "Commercial", type: "video" }, // Placeholder re-using image
     ],
