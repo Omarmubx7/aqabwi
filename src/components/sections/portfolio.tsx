@@ -14,7 +14,7 @@ const localImages = [
     "/aqabwi3.jpg",
     "/aqabwi4.jpg",
     "/aqabwi5.jpg",
-    "/11.jpg.jpeg",
+    "/11.jpeg",
     "/dsc-08633-copy.jpeg",
     "/dsc-09318-copy.jpeg",
     "/dsc-09874-copy.jpeg",
