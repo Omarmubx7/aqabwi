@@ -65,6 +65,7 @@ export const FramerTiltCard = ({
             className={cn("relative group", className)}
         >
             <div
+                suppressHydrationWarning
                 style={{
                     transform: "translateZ(75px)",
                     transformStyle: "preserve-3d",
