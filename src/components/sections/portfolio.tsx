@@ -15,12 +15,12 @@ const localImages = [
     "/aqabwi4.jpg",
     "/aqabwi5.jpg",
     "/11.jpg.jpeg",
-    "/DSC08633 copy.jpg.jpeg",
-    "/DSC09318 copy.jpg.jpeg",
-    "/DSC09874 copy.jpg.jpeg",
-    "/WhatsApp Image 2026-02-15 at 22.37.31 (1).jpeg",
-    "/WhatsApp Image 2026-02-15 at 22.37.31 (2).jpeg",
-    "/FHD draft 01 instagram .mp4"
+    "/dsc-08633-copy.jpeg",
+    "/dsc-09318-copy.jpeg",
+    "/dsc-09874-copy.jpeg",
+    "/whatsapp-image-1.jpeg",
+    "/whatsapp-image-2.jpeg",
+    "/instagram-draft.mp4"
 ];
 
 const portfolioItems = {
