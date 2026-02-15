@@ -1,0 +1,87 @@
+==============================================================================
+SERVICE PROTOCOL: LANDING PAGE (QUICK LAUNCH)
+==============================================================================
+
+SERVICE:      Landing Page
+PRICE:        From 200 JD
+TIMELINE:     5-7 Days
+DELIVERABLES: Copywriting, Speed Optimization (90+), Basic Analytics, Hosting
+
+------------------------------------------------------------------------------
+1. COMPLETE KICKOFF PROMPT (COPY & PASTE)
+------------------------------------------------------------------------------
+"Act as an expert Conversion Rate Optimization (CRO) Specialist and Next.js Developer.
+I need a high-performance landing page designed to convert traffic into leads (Bookings or Inquiries) for a professional Photographer, Videographer, and Video Editor.
+
+# Project Specs
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS
+- **Components**: Shadcn/ui (Button, Accordion, Input, Sheet)
+- Framer Motion for smooth animations and scroll-triggered effects
+- **Forms**: React Hook Form + Zod Validation
+- **Email**: Resend (API) for lead notifications
+- **Icons**: Lucide React
+
+# Page Structure (AIDA Model)
+1. **Sticky Header**: Logo + Primary CTA Button ('Book Now' or 'Get Quote').
+2. **Hero Section**: 
+   - H1: Captivating hook like 'Capture Your Moments in Stunning Detail'.
+   - P: Value proposition highlighting photography, videography, and editing expertise.
+   - Visual: High-quality hero image/video reel or parallax gallery on the right.
+   - CTA: Large button + 'No obligation quote' microcopy.
+3. **Portfolio Gallery**: Image/video carousel or masonry grid showcasing best work, categorized by photography, videography, editing.
+4. **Services/Benefits**: 3-4 cards with icons for Photography Shoots, Video Production, Professional Editing, etc.
+5. **Social Proof**: 'Trusted by' client logos, stats (e.g., 500+ projects), testimonials carousel.
+6. **FAQ**: Accordion for common questions like pricing, turnaround time.
+7. **Final CTA**: Simple inquiry form to book a session.
+
+# Functional Requirements
+1. **Speed**: Use `next/font` and strictly optimized images/videos. No CLS (Cumulative Layout Shift).
+2. **Animations**: Framer Motion for hero parallax, gallery hover effects, scroll reveals on sections.
+3. **Form**: On submit, send email via Resend and show success toast.
+4. **Tracking**: Create a `Link` wrapper or `Button` wrapper that fires a 'conversion' event to console (placeholder for GA4).
+
+# File Structure Preference
+- `src/app/page.tsx` (Landing Page layout)
+- `src/components/sections/hero.tsx`
+- `src/components/sections/portfolio.tsx`
+- `src/components/sections/services.tsx`
+- `src/components/ui/cta-button.tsx` (Standardized CTA style)
+- `src/actions/contact.ts` (Server action for form)
+
+Please start by scaffolding the page structure based on this outline."
+
+------------------------------------------------------------------------------
+2. CHECKLIST SPECIFICS
+------------------------------------------------------------------------------
+[ ] CONVERSION OPTIMIZATION (CRO)
+    - [ ] Sticky CTA Button: Visible on scroll.
+    - [ ] Hero Section: Clear value proposition above the fold with visual portfolio teaser.
+    - [ ] Social Proof: Testimonials, client logos, project stats included.
+    - [ ] Contact Form: Simple (Name, Phone, Email, Project Type) - validated with Zod.
+
+[ ] PERFORMANCE
+    - [ ] Images/Videos: Explicitly sized with `sizes` prop, lazy loading.
+    - [ ] JavaScript: Minimal hydration, mostly server components.
+    - [ ] Third-Party Scripts: Loaded via next/script with strategy="lazyOnload".
+
+[ ] INTEGRATIONS
+    - [ ] Form Backend: Resend (Email) or Google Sheets API.
+    - [ ] WhatsApp Widget: Added if requested (Floating button for quick inquiries).
+
+[ ] SEO & TRACKING
+    - [ ] Meta Title: "Photographer & Videographer in Amman | [Brand]" (e.g., "Amman Photographer Videographer Editor | VisionPro")
+    - [ ] Conversion Event: 'generate_lead' sent to GA4/Ads on form success.
+
+------------------------------------------------------------------------------
+3. OFTEN FORGOTTEN & ESSENTIALS
+------------------------------------------------------------------------------
+[ ] POST-CONVERSION
+    - [ ] Thank You Page: Dedicated URL (`/thank-you`) for reliable tracking pixels.
+    - [ ] Auto-Responder: Immediate email sent to lead ("Thanks for your inquiry—we'll respond within 24 hours!").
+    - [ ] Admin Notification: Validated email sent to Client.
+
+[ ] LEGAL & UI
+    - [ ] Privacy Policy Link: Footer link (Micro-text).
+    - [ ] Cookie Banner: Only if using invasive tracking pixels.
+    - [ ] Favicon: Custom one for the brand (not default). [shadcn](https://shadcn.io/template/ecarry-photography-website)

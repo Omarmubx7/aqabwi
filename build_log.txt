@@ -1,0 +1,19 @@
+
+> aqabawi-temp@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 2.8s
+  Running TypeScript ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/4) ...
+Error occurred prerendering page "/". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Invalid input: not a Zod schema
+    at <unknown> (C:\Users\omara\aqabwi\.next\server\chunks\ssr\_da7febad._.js:3:81261)
+    at bm (C:\Users\omara\aqabwi\.next\server\chunks\ssr\_da7febad._.js:3:81302) {
+  digest: '2537456609'
+}
+Export encountered an error on /page: /, exiting the build.
+Γ¿» Next.js build worker exited with code: 1 and signal: null
