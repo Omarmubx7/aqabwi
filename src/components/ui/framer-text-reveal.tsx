@@ -34,6 +34,7 @@ export const FramerTextReveal = ({
                 damping: 12,
                 stiffness: 100,
             },
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
         } as any, // Cast to any to avoid strict type mismatch with Variants definition
         hidden: {
             opacity: 0,
@@ -44,6 +45,7 @@ export const FramerTextReveal = ({
                 damping: 12,
                 stiffness: 100,
             },
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
         } as any,
     };
 

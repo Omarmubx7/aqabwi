@@ -1,0 +1,22 @@
+
+C:\Users\omara\aqabwi\src\components\sections\portfolio.tsx
+  180:59  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\omara\aqabwi\src\components\ui\framer-input.tsx
+   4:18  error  'MotionProps' is defined but never used                           @typescript-eslint/no-unused-vars
+   7:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+  41:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+C:\Users\omara\aqabwi\src\components\ui\framer-text-reveal.tsx
+  37:14  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  47:14  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\omara\aqabwi\src\components\ui\framer-tilt-card.tsx
+  9:5  error  'useTransform' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\omara\aqabwi\src\components\ui\marquee.tsx
+   4:10  error  'motion' is defined but never used        @typescript-eslint/no-unused-vars
+  14:20  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+Γ£û 9 problems (9 errors, 0 warnings)
+

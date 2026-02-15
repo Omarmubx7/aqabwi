@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { FramerTiltCard } from "@/components/ui/framer-tilt-card";
@@ -133,8 +133,6 @@ function ScrollPlayVideo({ src }: { src: string }) {
 }
 
 export default function Portfolio() {
-    const [activeTab, setActiveTab] = useState("photography");
-
     return (
         <section id="work" className="py-20 bg-background relative z-10">
             <div className="container mx-auto px-4 md:px-6">
@@ -158,7 +156,7 @@ export default function Portfolio() {
                     </motion.p>
                 </div>
 
-                <Tabs defaultValue="photography" className="w-full flex flex-col items-center" onValueChange={setActiveTab}>
+                <Tabs defaultValue="photography" className="w-full flex flex-col items-center">
                     <TabsList className="mb-12 bg-muted/50 p-1 rounded-full backdrop-blur-sm sticky top-24 z-30">
                         <TabsTrigger value="photography" className="rounded-full px-6 py-2 data-[state=active]:bg-foreground data-[state=active]:text-background transition-all">Photography</TabsTrigger>
                         <TabsTrigger value="videography" className="rounded-full px-6 py-2 data-[state=active]:bg-foreground data-[state=active]:text-background transition-all">Videography</TabsTrigger>
@@ -179,7 +177,7 @@ export default function Portfolio() {
                                         <FramerTiltCard className="cursor-pointer aspect-[3/4]">
                                             <div className="relative w-full h-full overflow-hidden rounded-xl">
                                                 {/* Simple conditional rendering for video vs image */}
-                                                {(item as any).type === 'video' ? (
+                                                {(item as { src: string; alt: string; type?: string }).type === 'video' ? (
                                                     <ScrollPlayVideo src={item.src} />
                                                 ) : (
                                                     <ParallaxImage src={item.src} alt={item.alt} />

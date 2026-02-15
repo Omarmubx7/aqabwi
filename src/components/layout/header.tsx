@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { FramerButton } from "@/components/ui/framer-button";
 import { cn } from "@/lib/utils";
-import { DATA } from "@/lib/data";
+
 
 export default function Header() {
     const [isScrolled, setIsScrolled] = useState(false);

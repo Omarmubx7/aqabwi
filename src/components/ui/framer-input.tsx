@@ -1,9 +1,10 @@
 "use client";
 
 import * as React from "react";
-import { motion, MotionProps } from "framer-motion";
+import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export interface FramerInputProps
     extends React.InputHTMLAttributes<HTMLInputElement> { }
 
@@ -38,6 +39,7 @@ const FramerInput = React.forwardRef<HTMLInputElement, FramerInputProps>(
 FramerInput.displayName = "FramerInput";
 
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export interface FramerTextAreaProps
     extends React.TextareaHTMLAttributes<HTMLTextAreaElement> { }
 

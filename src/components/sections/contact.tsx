@@ -53,9 +53,9 @@ export default function Contact() {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
 
                     <div>
-                        <h2 className="text-3xl md:text-5xl font-bold font-outfit mb-6">Let's Create Together</h2>
+                        <h2 className="text-3xl md:text-5xl font-bold font-outfit mb-6">Let&apos;s Create Together</h2>
                         <p className="text-muted-foreground mb-8 text-lg">
-                            Ready to capture your moments? Fill out the form below and we'll get back to you within 24 hours.
+                            Ready to capture your moments? Fill out the form below and we&apos;ll get back to you within 24 hours.
                         </p>
                         <div className="space-y-4">
                             <div className="flex items-center gap-4">

@@ -52,7 +52,7 @@ export async function sendContactEmail(prevState: ContactFormState, formData: Fo
             return { success: true, message: "Message sent successfully! (Mocked)" };
         }
 
-        const { data, error } = await resend.emails.send({
+        const { error } = await resend.emails.send({
             from: "Aqabawi Website <onboarding@resend.dev>", // Update with your verifying domain
             to: ["mubxdev@proton.me"], // Using the email from context history or explicit instruction? 
             // User prompt says "Admin Notification: Validated email sent to Client."
