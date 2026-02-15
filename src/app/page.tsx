@@ -5,6 +5,8 @@ import SocialProof from "@/components/sections/social-proof";
 import FAQ from "@/components/sections/faq";
 import Contact from "@/components/sections/contact";
 
+export const dynamic = "force-static";
+
 export default function Home() {
   return (
     <main className="min-h-screen">
