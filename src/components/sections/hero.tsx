@@ -30,6 +30,7 @@ export default function Hero() {
                     fill
                     className="object-cover opacity-80"
                     priority
+                    sizes="100vw"
                 />
             </motion.div>
 
