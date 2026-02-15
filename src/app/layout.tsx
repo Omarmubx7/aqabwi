@@ -10,6 +10,8 @@ import SmoothScroll from "@/components/ui/smooth-scroll";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
+export const dynamic = "force-static";
+
 export const metadata: Metadata = {
   title: "Abdallah Alfayoumi (AQABAWI) - Filmmaker & Photographer",
   description: "Capture Your Moments in Stunning Detail. Professional photography, videography, and editing services in Aqaba and Amman, Jordan.",
