@@ -11,6 +11,8 @@ import {
 } from "@/components/ui/tooltip";
 
 const clients = [
+    { name: "Almond Coffee House", logo: "/clients/almondcoffehouse.png" },
+    { name: "SOFEX Jordan", logo: "/clients/sofexjordan.png" },
     { name: "Samsung", logo: "/clients/samsung.png" },
     { name: "GIZ", logo: "/clients/giz.png" },
     { name: "Hilton", logo: "/clients/hilton.png" },
